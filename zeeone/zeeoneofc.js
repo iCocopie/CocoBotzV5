@@ -117,14 +117,14 @@ const download = (prefix) => {
 `
 }
 const allmenu = (kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii)  => {
-	return`❏───「 *WHATSAPP BOT* 」───❏
+	return`❏───「 *COCOBOTZ* 」───❏
                                
 ${ucapannya2}
 ⏰ Jam : ${timuu} Server Time
 🎀 Hari : ${thisDay}
 🗓️ Tanggal : ${ini_tanggal}
 
-*Convert Menu*
+*❏───「 *Convert Menu* 」───❏*
 ${numberik} ${prefix}tts  [query]
 ${numberik} ${prefix}toimg  [reply stiker]
 ${numberik} ${prefix}tomp3 [reply video]
@@ -136,7 +136,7 @@ ${numberik} ${prefix}fast [reply vn]
 ${numberik} ${prefix}reverse [reply vn]
 ${numberik} ${prefix}tourl [reply foto/vid]
 
-*Download Menu* 
+*❏───「 *Download Menu* 」───❏*
 ${numberik} ${prefix}ytsearch [query]
 ${numberik} ${prefix}ytshorts [url]
 ${numberik} ${prefix}igstalk [username]
@@ -169,7 +169,7 @@ ${numberik} ${prefix}lirik [query]
 ${numberik} ${prefix}komiku [query]
 ${numberik} ${prefix}anime _random_
 
- *Fun Menu*
+*❏───「 *Game/Fun Menu* 」───❏*
 ${numberik} ${prefix}start
 ${numberik} ${prefix}leave
 ${numberik} ${prefix}skip
@@ -209,11 +209,8 @@ ${numberik} ${prefix}tictactoe @user
 ${numberik} ${prefix}delttt
 ${numberik} ${prefix}voting @user|reason|time
 ${numberik} ${prefix}delvote
-${numberik} ${prefix}jadibot
-${numberik} ${prefix}stopjadibot
-${numberik} ${prefix}listbot
 
- *Textpro Menu*
+*❏───「 *TextPro Menu* 」───❏*
 ${numberik} ${prefix}halloween2 text|text2
 ${numberik} ${prefix}horror text|text2
 ${numberik} ${prefix}game8bit text|text2
@@ -395,7 +392,7 @@ ${numberik} ${prefix}metalb2 text
 ${numberik} ${prefix}metalg text
 ${numberik} ${prefix}metalg text
 
- *Photooxy Menu*
+*❏───「 *Photooxy Menu* 」───❏*
 ${numberik} ${prefix}captain_as text|text2
 ${numberik} ${prefix}smoke text|text2
 ${numberik} ${prefix}tiktok2 text|text2 
@@ -456,7 +453,7 @@ ${numberik} ${prefix}bevel text
 ${numberik} ${prefix}underflower text         
 ${numberik} ${prefix}underflower2 text
 
- *Maker Menu* 
+*❏───「 *Maker Menu* 」───❏*
 ${numberik} ${prefix}sticker
 ${numberik} ${prefix}smeme [text]
 ${numberik} ${prefix}memegen [atas|bawah]
@@ -480,7 +477,7 @@ ${numberik} ${prefix}ytgold [text]
 ${numberik} ${prefix}ytsilver [text]
 ${numberik} ${prefix}emoji 👼
  
- *Image Effect*
+*❏───「 *Image Effect* 」───❏*
 ${numberik} ${prefix}trigger
 ${numberik} ${prefix}gay
 ${numberik} ${prefix}glass
@@ -527,7 +524,7 @@ ${numberik} ${prefix}burn
 ${numberik} ${prefix}brazzers
 ${numberik} ${prefix}beautiful
 
- *Group Menu*
+*❏───「 *Group Menu* 」───❏* 
 ${numberik} ${prefix}add 62***
 ${numberik} ${prefix}kick _@user_
 ${numberik} ${prefix}radd _reply pesan @user_
@@ -591,7 +588,7 @@ ${numberik} ${prefix}buyglimit
 ${numberik} ${prefix}awoo
 ${numberik} ${prefix}megumin
 
-*Random Sound*
+*❏───「 *Random Sound* 」───❏*
 ${numberik} ${prefix}sound1
 ${numberik} ${prefix}sound2
 ${numberik} ${prefix}sound3
@@ -663,7 +660,7 @@ ${numberik} ${prefix}sound68
 ${numberik} ${prefix}sound69
 ${numberik} ${prefix}sound70
 
- *Owner Menu*
+*❏───「 *Owner Menu* 」───❏*
 ${numberik} ${prefix}setmenu location
 ${numberik} ${prefix}setmenu document
 ${numberik} ${prefix}setmenu list
@@ -708,7 +705,7 @@ ${numberik} x or > _code_
 ${numberik} $  _termux code_
 ${numberik} =>  _eval async_
 
- *Storage  Menu*
+*❏───「 *Storage Menu* 」───❏*
 ${numberik} ${prefix}addstik 
 ${numberik} ${prefix}addimg 
 ${numberik} ${prefix}addvid 
@@ -721,7 +718,7 @@ ${numberik} ${prefix}addrespon
 ${numberik} ${prefix}delrespon
 ${numberik} ${prefix}listrespon
 
- *Tag  Menu*
+*❏───「 *Tag Menu* 」───❏*
 ${numberik} ${prefix}hidetag
 ${numberik} ${prefix}kontag
 ${numberik} ${prefix}sticktag
@@ -739,9 +736,7 @@ ${numberik} ${prefix}babi
 ${numberik} ${prefix}beban 
 ${numberik} ${prefix}baik 
 ${numberik} ${prefix}jahat 
-${numberik} ${prefix}anjing 
-${numberik} ${prefix}haram 
-${numberik} ${prefix}kontol 
+${numberik} ${prefix}haram  
 ${numberik} ${prefix}pakboy 
 ${numberik} ${prefix}pakgirl 
 ${numberik} ${prefix}wibu 
@@ -749,99 +744,12 @@ ${numberik} ${prefix}hebat
 ${numberik} ${prefix}sadboy 
 ${numberik} ${prefix}sadgirl  
 
- *Up Eswe*
-${numberik} ${prefix}upswteks
-${numberik} ${prefix}upswimage
-${numberik} ${prefix}upswvideo
-
-*Kerang Ajaib*
+*❏───「 *Kerang Ajaib* 」───❏*
 ${numberik} ${prefix}bisakah [query]
 ${numberik} ${prefix}apakah [query]
 ${numberik} ${prefix}kapankah [query]
 
- *Nsfw & Sfw*
-${numberik} ${prefix}hentaivid
-${numberik} ${prefix}ahegao
-${numberik} ${prefix}ass
-${numberik} ${prefix}bdsm
-${numberik} ${prefix}blowjob
-${numberik} ${prefix}blowjob2
-${numberik} ${prefix}cuckold
-${numberik} ${prefix}cum
-${numberik} ${prefix}ero
-${numberik} ${prefix}femdom
-${numberik} ${prefix}foot
-${numberik} ${prefix}gangbang
-${numberik} ${prefix}glasses
-${numberik} ${prefix}jahy
-${numberik} ${prefix}manga
-${numberik} ${prefix}masturbation
-${numberik} ${prefix}neko
-${numberik} ${prefix}orgy
-${numberik} ${prefix}panties
-${numberik} ${prefix}pussy
-${numberik} ${prefix}tentacles
-${numberik} ${prefix}thighs
-${numberik} ${prefix}yuri
-${numberik} ${prefix}feet
-${numberik} ${prefix}lewdkemo
-${numberik} ${prefix}woof
-${numberik} ${prefix}gasm
-${numberik} ${prefix}solo
-${numberik} ${prefix}8ball
-${numberik} ${prefix}goose
-${numberik} ${prefix}avatar
-${numberik} ${prefix}hololewd
-${numberik} ${prefix}gecg
-${numberik} ${prefix}holo
-${numberik} ${prefix}fox_girl
-${numberik} ${prefix}tits
-${numberik} ${prefix}eroyuri
-${numberik} ${prefix}holoyero
-${numberik} ${prefix}lizard
-${numberik} ${prefix}keta
-${numberik} ${prefix}eron
-${numberik} ${prefix}erok
-${numberik} ${prefix}kemonomimi
-${numberik} ${prefix}cum_jpg
-${numberik} ${prefix}nsfw_avatar
-${numberik} ${prefix}erofeet
-${numberik} ${prefix}meow
-${numberik} ${prefix}wallpaper
-${numberik} ${prefix}waifu
-${numberik} ${prefix}trap
-${numberik} ${prefix}lewd
-${numberik} ${prefix}pussy_jpg
-${numberik} ${prefix}futanari
-${numberik} ${prefix}lewdk
-${numberik} ${prefix}solog
-${numberik} ${prefix}smug
-${numberik} ${prefix}cum
-${numberik} ${prefix}slap
-${numberik} ${prefix}les
-${numberik} ${prefix}erokemo
-${numberik} ${prefix}bj
-${numberik} ${prefix}pwankg
-${numberik} ${prefix}pat
-${numberik} ${prefix}poke
-${numberik} ${prefix}feed
-${numberik} ${prefix}nsfw_neko_gif
-${numberik} ${prefix}pussy
-${numberik} ${prefix}feetg
-${numberik} ${prefix}baka
-${numberik} ${prefix}hug
-${numberik} ${prefix}kiss
-${numberik} ${prefix}tickle
-${numberik} ${prefix}spank
-${numberik} ${prefix}kuni
-${numberik} ${prefix}classic
-${numberik} ${prefix}boobs
-${numberik} ${prefix}anal
-${numberik} ${prefix}ngif
-${numberik} ${prefix}cuddle
-${numberik} ${prefix}zettai
-
- *Telegram Stiker*
+*❏───「 *Telegram Sticker* 」───❏*
 ${numberik} ${prefix}awoawo
 ${numberik} ${prefix}benedict
 ${numberik} ${prefix}chat
@@ -864,7 +772,7 @@ ${numberik} ${prefix}sponsbob
 ${numberik} ${prefix}kawan_sponsbob
 ${numberik} ${prefix}tyni
 
- *Cecan  Menu* 
+*❏───「 *Cecan Menu* 」───❏*
 ${numberik} ${prefix}china
 ${numberik} ${prefix}indonesia
 ${numberik} ${prefix}malaysia
@@ -877,7 +785,7 @@ ${numberik} ${prefix}jiso
 ${numberik} ${prefix}lisa
 ${numberik} ${prefix}rose
 
- *Quotes  Menu*
+*❏───「 *Quotes Menu* 」───❏*
 ${numberik} ${prefix}katailham  
 ${numberik} ${prefix}dare   
 ${numberik} ${prefix}truth  
@@ -885,7 +793,7 @@ ${numberik} ${prefix}katabijak_lucu
 ${numberik} ${prefix}katacaklontong  
 ${numberik} ${prefix}katadilan  
 
- *Cogan  Menu* 
+*❏───「 *Cogan Menu* 」───❏*
 ${numberik} ${prefix}baekhyung  
 ${numberik} ${prefix}dohkyungsoo  
 ${numberik} ${prefix}huangzitao  
@@ -905,30 +813,7 @@ ${numberik} ${prefix}parkchanyeol
 ${numberik} ${prefix}suga  
 ${numberik} ${prefix}wuyifan
 
- *Asupan  Menu* 
-${numberik} ${prefix}rikagusriani 
-${numberik} ${prefix}ukhty 
-${numberik} ${prefix}santuy 
-${numberik} ${prefix}geayubi   
-${numberik} ${prefix}bocil
-${numberik} ${prefix}asupan
-${numberik} ${prefix}chika 
-${numberik} ${prefix}delvira 
-${numberik} ${prefix}ayu   
-${numberik} ${prefix}bunga
-${numberik} ${prefix}aura
-${numberik} ${prefix}nisa 
-${numberik} ${prefix}ziva 
-${numberik} ${prefix}yana   
-${numberik} ${prefix}viona
-${numberik} ${prefix}syania
-${numberik} ${prefix}riri   
-${numberik} ${prefix}syifa
-${numberik} ${prefix}mama_gina
-${numberik} ${prefix}alcakenya 
-${numberik} ${prefix}mangayutri
-
- *Anime  Menu*
+*❏───「 *Wibu Menu* 」───❏*
 ${numberik} ${prefix}anna
 ${numberik} ${prefix}asuna_yuki 
 ${numberik} ${prefix}ayuzawa 
