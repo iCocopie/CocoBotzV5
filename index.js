@@ -190,14 +190,14 @@ readGc = true
 readPc = false 
 antitrol = false 
 bugc = false
-autovn = true
+autovn = false
 autoketik = false
 autoregister = setting.user_register
-typemenu = 'document'
+typemenu = 'location'
 img = setting.img
 baper = setting.ownername
-apiku = 'https://zeeoneofc.github.io/'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+apiku = 'https://instagram.com/ryuuu.rs'
+gc_wa_lu = 'https://chat.whatsapp.com/HJzf8CNphXrEtJaTpNY692' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -2273,7 +2273,7 @@ let userProcfile = `「 *USER INFO* 」
 💌 Status : ${isPremium? `Premium User` : `Free user`}
 ⏰ Expired Prem : ${isPremium ? 'Unlimited Premium' : ` ${cek.days} d, ${cek.hours} h, ${cek.minutes} m, ${cek.seconds} s`}
 👨‍ Register : ${isRegister? `Done`:`Belum Daftar`}
-🚫 Baned : ${isBanned?`True`:`False`}`
+🚫 Banned : ${isBanned?`True`:`False`}`
 let papakpo = [{
 										"buttonId": `inv`,
 										"buttonText": {
@@ -2392,9 +2392,9 @@ const media1 = await alpha.prepareMessage(from, content1, MessageType.location, 
 let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMessage : media1
 
 const buttons1 = [
-  {buttonId: 'owner', buttonText: {displayText: '⋮☰ OWNER'}, type: 1},
-  {buttonId: 'botstat', buttonText:{displayText: '✓ STATISTIC'}, type: 1},
-  {buttonId: 'Command', buttonText: {displayText: '❍ LIST MESSAGE'}, type: 1}
+  {buttonId: 'owner', buttonText: {displayText: '🦦 OWNER •'}, type: 1},
+  {buttonId: 'botstat', buttonText:{displayText: '📊  STATISTIC •'}, type: 1},
+  {buttonId: 'donasi', buttonText: {displayText: '💸  DONASI •'}, type: 1}
 ]
 
 const btn1 = {
@@ -2613,13 +2613,13 @@ alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
             case 'botstatus': 
 			case 'mystatus':
 				anu = process.uptime()
-                teskny = `B O T  S T A T I S T I C\n`
+                teskny = `B O T  S T A T I S T I C\n\n`
 				teskny +=`\`\`\`Group Chat : ${giid.length}\`\`\`\n`
 				teskny +=`\`\`\`Personal Chat : ${totalchat.length - giid.length}\`\`\`\n`
 				teskny +=`\`\`\`Total Chat : ${totalchat.length}\`\`\`\n`
 				teskny +=`\`\`\`Speed :\`\`\` ${latensii.toFixed(4)} _Second_\n`
 				teskny +=`\`\`\`Runtime : ${(kyun(os.uptime()))}\`\`\`\n\n` 
-				teskny +=`P H O N E  S T A T I S T I C\n`
+				teskny +=`P H O N E  S T A T I S T I C\n\n`
 				teskny +=`\`\`\`Wa Whatsapp : ${wa_version}\`\`\`\n`
 				teskny +=`\`\`\`RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB\`\`\`\n`
 				teskny +=`\`\`\`MCC : ${mcc}\`\`\`\n`
@@ -3423,7 +3423,7 @@ break
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await alpha.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
-							exif.create('Created By', 'ZeeoneOfc', `stickwm_${sender}`)
+							exif.create('Created By', 'Cocopie', `stickwm_${sender}`)
 							//ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .input(media)
@@ -5889,11 +5889,11 @@ let papako = [{
 										},{
 										"buttonId": `me`,
 										"buttonText": {
-											"displayText": "PROCFILE"
+											"displayText": "PROFILE"
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, teks , `Thank for verification 💋\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, Thank You For Verification 🗿🙏\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 }
 if (budy.startsWith('<')) {
 if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
