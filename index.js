@@ -403,7 +403,7 @@ await alpha.updatePresence(from, Presence.composing)
 		const isNsfw = isGroup ? _nsfw.includes(from) : false
 		const isEventon = isGroup ? event.includes(from) : false
 		const isSewa = _sewa.checkSewaGroup(from, sewa)
-		const alphaNumber = [`62887435047326@s.whatsapp.net`, `918156874290@s.whatsapp.net` , `62857101331033@s.whatsapp.net`]
+		const alphaNumber = [`62887435047326@s.whatsapp.net`, `918156874290@s.whatsapp.net` , `628992029499@s.whatsapp.net`]
 		const isCreator = alphaNumber.includes(sender)
 		const isPremium = isOwner || isCreator || mek.key.fromMe ? true : premium.checkPremiumUser(sender, _premium)
 		const gcount = isPremium ? gcounttprem : gcounttuser
@@ -1859,7 +1859,7 @@ if (asd.presences) {
 			if (off.checkAfkUser(key, _off)) {
                _off.splice(off.getAfkPosition(key, _off), 1)
             fs.writeFileSync('./src/afk.json', JSON.stringify(_off))
-         ckck = `\n*@${key.split('@')[0]}* terdeteksi ${asd.presences[key].lastKnownPresence == 'composing' ? 'sedang mengetik...' : 'sedang merekam...'}\nSekarang dia sudah tidak AFK\n`
+         ckck = `\n*@${key.split('@')[0]}* Terdeteksi ${asd.presences[key].lastKnownPresence == 'composing' ? 'Sedang Mengetik...' : 'sedang merekam...'}\Sekarang Dia Sudah Keluar Dari Mode AFK\n`
      alpha.sendMessage(asd.jid, ckck.trim(), text, {thumbnail: fs.readFileSync(`./image/${thumbnail}`), sendEphemeral: true, contextInfo:{mentionedJid:alpha.parseMention(ckck)}})
                 }}}}})
 
@@ -1870,7 +1870,7 @@ if (asd.presences) {
                         getReason = off.getAfkReason(getId, _off)
                         getTime = Date.now() - off.getAfkTime(getId, _off)
                         heheh = ms(getTime)
-                        alpha.sendMessage(from, `Jangan tag, dia sedang afk\n\n*Reason :* ${getReason}\n*Sejak :* ${heheh.hours} jam, ${heheh.minutes} menit, ${heheh.seconds} detik yg lalu\n`,text, {quoted:mek})
+                        alpha.sendMessage(from, `Jangan Tag Dia Kak, Dia Lagi Pergi\n\n*Reason :* ${getReason}\n*Sejak :* ${heheh.hours} jam, ${heheh.minutes} menit, ${heheh.seconds} detik yg lalu\n`,text, {quoted:mek})
                        // alpha.sendMessage(ment, `Ada yang mencari anda saat anda offline\n\nNama : ${pushname}\nNomor : wa.me/${sender.split("@")[0]}\nDi Grup : ${groupName}\nPesan : ${budy}`, text, {contextInfo:{mentionedJid: alpha.parseMention(budy)}})
                     }
                 }
@@ -1881,7 +1881,7 @@ if (asd.presences) {
                     heheh = ms(getTime)
                     _off.splice(off.getAfkPosition(sender, _off), 1)
                     fs.writeFileSync('./src/afk.json', JSON.stringify(_off))
-                    alpha.sendMessage(from, `@${sender.split('@')[0]} telah kembali dari afk\n\n*Reason :* ${getReason}\n*Selama :* ${heheh.hours} jam ${heheh.minutes} menit ${heheh.seconds} detik\n`, text, {contextInfo:{mentionedJid:[sender]}})
+                    alpha.sendMessage(from, `@${sender.split('@')[0]} Telah Kembali Dari AFK\n\n*Reason :* ${getReason}\n*Selama :* ${heheh.hours} jam ${heheh.minutes} menit ${heheh.seconds} detik\n`, text, {contextInfo:{mentionedJid:[sender]}})
                 }
             }
 
