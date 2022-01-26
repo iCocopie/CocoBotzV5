@@ -5893,7 +5893,7 @@ let papako = [{
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, Thank You For Verification 🗿🙏\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, teks , `Thank You For Verification 🗿🙏\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 }
 if (budy.startsWith('<')) {
 if (!mek.key.fromMe && !isOwner && !isCreator) return reply(lang.onlyOwner())
