@@ -124,7 +124,28 @@ ${ucapannya2}
 🎀 Hari : ${thisDay}
 🗓️ Tanggal : ${ini_tanggal}
 
-*❏───「 *Convert Menu* 」───❏*
+❏ 📲 *PHONE STATISTIC*
+🪀 Whatsapp : ${wa_version}
+📱 Merk HP : ${device_manufacturer}
+📱 Versi HP : ${device_model}
+🔮 Versi OS : ${os_version}
+🛑 RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+🔯 MCC : ${mcc}
+♈ MNC : ${mnc}
+
+❏ 👾 *BOT STATISTIC*
+🉐 Mode : ${status}
+⛎ Prefix : ${prefix}
+📧 Total Hit : ${hit_today.length}
+📭 Personal Chat : ${totalchat.length - ini_gcchat}
+👥 Group Chat : ${ini_gcchat}
+👨‍👨‍👦‍👦 Total All Chat : ${totalchat.length}
+🌍 Browser : Chrome
+🌐 Server : Baileys 3.5.3
+🚀 Speed :  ${latensii.toFixed(4)} Second
+⏰ Runtime : ${kyun(os.uptime())}
+
+❏───「 *Convert Menu* 」───❏
 ${numberik} ${prefix}tts  [query]
 ${numberik} ${prefix}toimg  [reply stiker]
 ${numberik} ${prefix}tomp3 [reply video]
@@ -136,7 +157,7 @@ ${numberik} ${prefix}fast [reply vn]
 ${numberik} ${prefix}reverse [reply vn]
 ${numberik} ${prefix}tourl [reply foto/vid]
 
-*❏───「 *Download Menu* 」───❏*
+❏───「 *Download Menu* 」───❏
 ${numberik} ${prefix}ytsearch [query]
 ${numberik} ${prefix}ytshorts [url]
 ${numberik} ${prefix}igstalk [username]
@@ -169,7 +190,7 @@ ${numberik} ${prefix}lirik [query]
 ${numberik} ${prefix}komiku [query]
 ${numberik} ${prefix}anime _random_
 
-*❏───「 *Game/Fun Menu* 」───❏*
+❏───「 *Game/Fun Menu* 」───❏
 ${numberik} ${prefix}start
 ${numberik} ${prefix}leave
 ${numberik} ${prefix}skip
@@ -210,7 +231,7 @@ ${numberik} ${prefix}delttt
 ${numberik} ${prefix}voting @user|reason|time
 ${numberik} ${prefix}delvote
 
-*❏───「 *TextPro Menu* 」───❏*
+❏───「 *TextPro Menu* 」───❏
 ${numberik} ${prefix}halloween2 text|text2
 ${numberik} ${prefix}horror text|text2
 ${numberik} ${prefix}game8bit text|text2
@@ -392,7 +413,7 @@ ${numberik} ${prefix}metalb2 text
 ${numberik} ${prefix}metalg text
 ${numberik} ${prefix}metalg text
 
-*❏───「 *Photooxy Menu* 」───❏*
+❏───「 *Photooxy Menu* 」───❏
 ${numberik} ${prefix}captain_as text|text2
 ${numberik} ${prefix}smoke text|text2
 ${numberik} ${prefix}tiktok2 text|text2 
@@ -453,7 +474,7 @@ ${numberik} ${prefix}bevel text
 ${numberik} ${prefix}underflower text         
 ${numberik} ${prefix}underflower2 text
 
-*❏───「 *Maker Menu* 」───❏*
+❏───「 *Maker Menu* 」───❏
 ${numberik} ${prefix}sticker
 ${numberik} ${prefix}smeme [text]
 ${numberik} ${prefix}memegen [atas|bawah]
@@ -477,7 +498,7 @@ ${numberik} ${prefix}ytgold [text]
 ${numberik} ${prefix}ytsilver [text]
 ${numberik} ${prefix}emoji 👼
  
-*❏───「 *Image Effect* 」───❏*
+❏───「 *Image Effect* 」───❏
 ${numberik} ${prefix}trigger
 ${numberik} ${prefix}gay
 ${numberik} ${prefix}glass
@@ -524,7 +545,7 @@ ${numberik} ${prefix}burn
 ${numberik} ${prefix}brazzers
 ${numberik} ${prefix}beautiful
 
-*❏───「 *Group Menu* 」───❏* 
+❏───「 *Group Menu* 」───❏ 
 ${numberik} ${prefix}add 62***
 ${numberik} ${prefix}kick _@user_
 ${numberik} ${prefix}radd _reply pesan @user_
@@ -569,7 +590,6 @@ ${numberik} ${prefix}demoteall
 ${numberik} ${prefix}admin
 ${numberik} ${prefix}listpc
 ${numberik} ${prefix}listgroup
-${numberik} ${prefix}hentai
 ${numberik} ${prefix}jadian
 ${numberik} ${prefix}trapnime
 ${numberik} ${prefix}sewa add/del waktu
@@ -588,7 +608,7 @@ ${numberik} ${prefix}buyglimit
 ${numberik} ${prefix}awoo
 ${numberik} ${prefix}megumin
 
-*❏───「 *Random Sound* 」───❏*
+❏───「 *Random Sound* 」───❏
 ${numberik} ${prefix}sound1
 ${numberik} ${prefix}sound2
 ${numberik} ${prefix}sound3
@@ -660,7 +680,7 @@ ${numberik} ${prefix}sound68
 ${numberik} ${prefix}sound69
 ${numberik} ${prefix}sound70
 
-*❏───「 *Owner Menu* 」───❏*
+❏───「 *Owner Menu* 」───❏
 ${numberik} ${prefix}setmenu location
 ${numberik} ${prefix}setmenu document
 ${numberik} ${prefix}setmenu list
@@ -705,7 +725,7 @@ ${numberik} x or > _code_
 ${numberik} $  _termux code_
 ${numberik} =>  _eval async_
 
-*❏───「 *Storage Menu* 」───❏*
+❏───「 *Storage Menu* 」───❏
 ${numberik} ${prefix}addstik 
 ${numberik} ${prefix}addimg 
 ${numberik} ${prefix}addvid 
@@ -744,12 +764,12 @@ ${numberik} ${prefix}hebat
 ${numberik} ${prefix}sadboy 
 ${numberik} ${prefix}sadgirl  
 
-*❏───「 *Kerang Ajaib* 」───❏*
+❏───「 *Kerang Ajaib* 」───❏
 ${numberik} ${prefix}bisakah [query]
 ${numberik} ${prefix}apakah [query]
 ${numberik} ${prefix}kapankah [query]
 
-*❏───「 *Telegram Sticker* 」───❏*
+❏───「 *Telegram Sticker* 」───❏
 ${numberik} ${prefix}awoawo
 ${numberik} ${prefix}benedict
 ${numberik} ${prefix}chat
@@ -772,7 +792,7 @@ ${numberik} ${prefix}sponsbob
 ${numberik} ${prefix}kawan_sponsbob
 ${numberik} ${prefix}tyni
 
-*❏───「 *Cecan Menu* 」───❏*
+❏───「 *Cecan Menu* 」───❏
 ${numberik} ${prefix}china
 ${numberik} ${prefix}indonesia
 ${numberik} ${prefix}malaysia
@@ -785,7 +805,7 @@ ${numberik} ${prefix}jiso
 ${numberik} ${prefix}lisa
 ${numberik} ${prefix}rose
 
-*❏───「 *Quotes Menu* 」───❏*
+❏───「 *Quotes Menu* 」───❏
 ${numberik} ${prefix}katailham  
 ${numberik} ${prefix}dare   
 ${numberik} ${prefix}truth  
@@ -793,7 +813,7 @@ ${numberik} ${prefix}katabijak_lucu
 ${numberik} ${prefix}katacaklontong  
 ${numberik} ${prefix}katadilan  
 
-*❏───「 *Cogan Menu* 」───❏*
+❏───「 *Cogan Menu* 」───❏
 ${numberik} ${prefix}baekhyung  
 ${numberik} ${prefix}dohkyungsoo  
 ${numberik} ${prefix}huangzitao  
@@ -813,7 +833,7 @@ ${numberik} ${prefix}parkchanyeol
 ${numberik} ${prefix}suga  
 ${numberik} ${prefix}wuyifan
 
-*❏───「 *Wibu Menu* 」───❏*
+❏───「 *Wibu Menu* 」───❏
 ${numberik} ${prefix}anna
 ${numberik} ${prefix}asuna_yuki 
 ${numberik} ${prefix}ayuzawa 
