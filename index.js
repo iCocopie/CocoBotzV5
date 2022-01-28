@@ -170,9 +170,9 @@ fthumb = setting.fakethumb
 hit_today = []
 blocked = []
 ban = []
-limitawal = "50"
-gcounttprem = "50" 
-gcounttuser = "25" 
+limitawal = "75"
+gcounttprem = "75" 
+gcounttuser = "75" 
 
 let multi = true
 let nopref = false
@@ -1698,14 +1698,14 @@ const checkWin = (sender) => {
             }
             tictactoe[enemy] = data
             delete tictactoe[senderNumber]
-            var teks = `🎮🎭 ${petik}TICTACTOE${petik} ????${enter}•> Player 1 : @${player1.split("@")[0]} (${mode})`
+            var teks = `🎮 ${petik}TICTACTOE${petik} 🎮${enter}•> Player 1 : @${player1.split("@")[0]} (${mode})`
             mode = mode == X ? O : X
             var text2 = `${enter}${enter}•> Player 2 : @${player2.split("@")[0]} (${mode})`
             var test = `${enter}_ketik nyerah untuk menyerah_`
             board = await generateBoard(data["board"])
             var win = await getWin(data["board"])
             if (win) {
-                teks = `🎮🎭 ${petik}TICTACTOE${petik} 🎭🎮${enter}`
+                teks = `🎮 ${petik}TICTACTOE${petik} 🎮${enter}`
                 if (win == mode) {
                     teks += `•> Lose : @${player1} 👻${enter}${enter}`
                     teks += board
@@ -1731,7 +1731,7 @@ const checkWin = (sender) => {
                 }
             }
             if (data["step"] == 9) {
-                teks = `🎮🎭 ${petik}TICTACTOE${petik} 🎭🎮${enter}`
+                teks = `🎮 ${petik}TICTACTOE${petik} 🎮${enter}`
                 teks += `•> Draw : @${player1} 🦁${enter}${enter}`
                 teks += board
                 teks += `${enter}${enter}•> Draw : @${player2} 🐯${enter}_© WhatsApp inc._`
@@ -1764,7 +1764,7 @@ const checkWin = (sender) => {
                 var board = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣"]
                 var penantang = `${tttSkuy.Z}@s.whatsapp.net`
                 var lawan = `${tttSkuy.Y}@s.whatsapp.net`
-                tesk = `🎮🎭 ${petik}TICTACTOE${petik} 🎭🎮${enter}•> Player 1 : @${penantang.split("@")[0]} (${nantang}) ${tunjuk}${enter}`
+                tesk = `🎮 ${petik}TICTACTOE${petik} 🎮${enter}•> Player 1 : @${penantang.split("@")[0]} (${nantang}) ${tunjuk}${enter}`
                 var count = 0
                 for (var x of board) {
                     if (count % 3 == 0) {
@@ -2308,7 +2308,7 @@ break
  let ran_blc = randomNomor(50)
  addBalance(sender, ran_blc, balance)
 fs.writeFileSync('./database/user/register.json', JSON.stringify(register))
-teks = `╭─❒ *Verification*\n│ *Nama :* ${pushname}\n│ *Nomor :* @${sender.split('@')[0]}\n│ *Bio :* ${bio_user}\n│ *Time :* ${wib}\n╰❒ *Success*`
+teks = `╭─❒ *Verification*\n│ *Nama :* ${pushname}\n│ *Nomor :* @${sender.split('@')[0]}\n│ *Bio :* ${bio_user}\n│ *Time :* ${wib}\n│ *Success*\n╰❒`
 let papako = [{
 										"buttonId": `menu`,
 										"buttonText": {
@@ -2318,11 +2318,11 @@ let papako = [{
 										},{
 										"buttonId": `me`,
 										"buttonText": {
-											"displayText": "PROCFILE"
+											"displayText": "PROFILE"
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, teks , `Thank for verification\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, teks , `Thanks For Verification😇\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 }
 break
 	case 'menu': case 'help':{
@@ -2392,8 +2392,8 @@ const media1 = await alpha.prepareMessage(from, content1, MessageType.location, 
 let bacotlu1 = media1.message["ephemeralMessage"] ? media1.message.ephemeralMessage : media1
 
 const buttons1 = [
-  {buttonId: 'owner', buttonText: {displayText: '🦦 OWNER •'}, type: 1},
-  {buttonId: 'botstat', buttonText:{displayText: '📊  STATISTIC •'}, type: 1},
+  {buttonId: 'owner', buttonText: {displayText: '🐥 OWNER •'}, type: 1},
+  {buttonId: 'botstat', buttonText:{displayText: '📑 BOT STATISTIC •'}, type: 1},
   {buttonId: 'donasi', buttonText: {displayText: '💸  DONASI •'}, type: 1}
 ]
 
@@ -3423,7 +3423,7 @@ break
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await alpha.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
-							exif.create('Created By', 'Cocopie', `stickwm_${sender}`)
+							exif.create('CocoBotz Created By', 'Cocopie', `stickwm_${sender}`)
 							//ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .input(media)
@@ -5460,7 +5460,7 @@ break
           for (let hui of banned) {
             teks += `│+  @${hui.split('@')[0]}\n`
           }
-          teks += `│+ Total : ${banned.length}\n╰──────「 *ALPHA BOT* 」────`
+          teks += `│+ Total : ${banned.length}\n╰──────「 *COCOBOTZ* 」────`
           alpha.sendMessage(from, teks.trim(), extendedText, { quoted: mek, contextInfo: { "mentionedJid": [hui] } })
           break
  		case 'ban': case 'banned': case 'block':
@@ -5879,7 +5879,7 @@ if (budy.includes("eror",'error','Eror','Error')){
  addBalance(sender, ran_blc, balance)
  addLevelingId(sender)
 fs.writeFileSync('./database/user/register.json', JSON.stringify(register))
-teks = `╭─❒ *Verification*\n│ *Nama :* ${pushname}\n│ *Nomor :* @${sender.split('@')[0]}\n│ *Bio :* ${bio_user}\n│ *Time :* ${wib}\n╰❒ *Success*`
+teks = `╭─❒ *Verification*\n│ *Nama :* ${pushname}\n│ *Nomor :* @${sender.split('@')[0]}\n│ *Bio :* ${bio_user}\n│ *Time :* ${wib}\n│ *Success*\n╰❒`
 let papako = [{
 										"buttonId": `menu`,
 										"buttonText": {
