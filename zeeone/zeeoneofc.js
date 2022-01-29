@@ -125,7 +125,7 @@ ${ucapannya2}
 🗓️ Tanggal : ${ini_tanggal}
 
 ❏ 📲 *PHONE STATISTIC*
-🪀 Whatsapp : ${wa_version}
+🪀 Whatsapp Version : ${wa_version}
 📱 Merk HP : ${device_manufacturer}
 📱 Versi HP : ${device_model}
 🔮 Versi OS : ${os_version}
@@ -136,6 +136,7 @@ ${ucapannya2}
 ❏ 👾 *BOT STATISTIC*
 🉐 Mode : ${status}
 ⛎ Prefix : ${prefix}
+💻 Platform : Linux
 📧 Total Hit : ${hit_today.length}
 📭 Personal Chat : ${totalchat.length - ini_gcchat}
 👥 Group Chat : ${ini_gcchat}
@@ -214,9 +215,7 @@ ${numberik} ${prefix}fitnah
 ${numberik} ${prefix}absen
 ${numberik} ${prefix}absensi
 ${numberik} ${prefix}tebakgambar
-${numberik} ${prefix}caklontong
 ${numberik} ${prefix}family100
-${numberik} ${prefix}tebakanime
 ${numberik} ${prefix}tebakkalimat
 ${numberik} ${prefix}susunkata
 ${numberik} ${prefix}tekateki
@@ -738,7 +737,7 @@ ${numberik} ${prefix}addrespon
 ${numberik} ${prefix}delrespon
 ${numberik} ${prefix}listrespon
 
-*❏───「 *Tag Menu* 」───❏*
+❏───「 *Tag Menu* 」───❏
 ${numberik} ${prefix}hidetag
 ${numberik} ${prefix}kontag
 ${numberik} ${prefix}sticktag
@@ -781,7 +780,6 @@ ${numberik} ${prefix}hope_boy
 ${numberik} ${prefix}jisoo
 ${numberik} ${prefix}kr_robot
 ${numberik} ${prefix}kucing
-${numberik} ${prefix}lonte
 ${numberik} ${prefix}manusia_lidi
 ${numberik} ${prefix}menjamet
 ${numberik} ${prefix}meow
