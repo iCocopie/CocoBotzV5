@@ -2348,28 +2348,34 @@ let p1 = await alpha.getStatus(sender)
 anunya = process.uptime()
 ini_anu =`${ucapannya2}
 
-╭─❒ 「 Bot Info 」 
-├ Creator :  @${koko.split('@')[0]}
-├ Powered  : @${ini_mark.split('@')[0]}
-├ Prefix :   ${prefix}
-├ Total hit : ${hitall}
-├ Hit today : ${hit_today.length}
-├ Speed : ${latensii.toFixed(4)} Second
-├ Hostname : ${os.hostname()}
-├ Platform : ${os.platform()}
-├ Runtime : ${kyun(runtime)}
-├ Battery : ${isBattre}
-╰❒ Charging : ${isCharge}
+⏰ Jam : ${timuu} Server Time
+🎀 Hari : ${thisDay}
+🗓️ Tanggal : ${ini_tanggal}
 
-╭─❒ 「 User Info 」 
-├ Name : ${pushname}
-├ Bio : ${p1 ? `${p1.status}` : '-'}
-├ Nomor : @${sender.split('@')[0]}
-├ Me : ${mek.key.fromMe ? 'True' : 'False'}
-╰❒ Owner : ${isOwner ? 'True' : `False`}
+❏ 📲 *PHONE STATISTIC*
+🪀 Whatsapp Version : ${wa_version}
+📱 Merk HP : ${device_manufacturer}
+📱 Versi HP : ${device_model}
+🔮 Versi OS : ${os_version}
+🛑 RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+🔯 MCC : ${mcc}
+♈ MNC : ${mnc}
+
+❏ 👾 *BOT STATISTIC*
+🉐 Mode : ${status}
+⛎ Prefix : ${prefix}
+💻 Platform : Linux
+📧 Total Hit : ${hit_today.length}
+📭 Personal Chat : ${totalchat.length - ini_gcchat}
+👥 Group Chat : ${ini_gcchat}
+👨‍👨‍👦‍👦 Total All Chat : ${totalchat.length}
+🌍 Browser : Chrome
+🌐 Server : Baileys 3.5.3
+🚀 Speed :  ${latensii.toFixed(4)} Second
+⏰ Runtime : ${kyun(os.uptime())}
 `
 if(typemenu == 'document'){
-sendButDoc(from, ini_anu, `Please Don't spam bot, pause 3 seconds per command!\n`, sender, koko, ini_mark)
+sendButDoc(from, ini_anu, `©Cocopie || 2022\n`, sender, koko, ini_mark)
 } 
 if(typemenu == 'troli'){
 sendTroli(allmenu(kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii))
