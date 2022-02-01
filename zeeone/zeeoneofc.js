@@ -69,6 +69,7 @@ ${numberik}➛${tekss}
 }
 const convert = (prefix) => {
 	return`❑ *CONVERT MENU* ❑
+
 ${prefix}tts query
 ${prefix}toimg [reply img]
 ${prefix}tomp3 [reply vid]
@@ -83,6 +84,7 @@ ${prefix}tourl [reply vid/img]
 }
 const download = (prefix) => {
 	return`❑ *DOWNLOAD MENU* ❑
+
 ${prefix}ytsearch [query]
 ${prefix}ytshorts [url]
 ${prefix}igstalk [username]
@@ -1138,117 +1140,117 @@ ${prefix}underflower2 text
 }
 
 const other = (prefix) => {
-	return`┌❑  *GROUP MENU* ❑
-│
-├❒ ${prefix}add 62xxx
-├❒ ${prefix}kick 62xxx
-├❒ ${prefix}ping
-├❒ ${prefix}antilink [on / off]
-├❒ ${prefix}get [link]
-├❒ ${prefix}getpp _@user_
-├❒ ${prefix}getbio _@user_
-├❒ ${prefix}getname [reply msg user]
-├❒ ${prefix}size _reply media_
-├❒ ${prefix}colongsw _reply sw_
-├❒ ${prefix}tagall
-├❒ ${prefix}listonline
-├❒ ${prefix}caripesan query
-├❒ ${prefix}caripesan2 [query]
-├❒ ${prefix}searchmsg [query|total]
-├❒ ${prefix}sider [reply pesan bot]
-├❒ ${prefix}del [reply pesan bot]
-├❒ ${prefix}q [reply pesan]
-├❒ ${prefix}afk [reason]
-├❒ ${prefix}getsider [reply pesan bot]
-├❒ ${prefix}tagall
-├❒ ${prefix}revoke
-├❒ ${prefix}setname
-├❒ ${prefix}ppcouple
-├❒ ${prefix}promoteall
-├❒ ${prefix}demoteall
-├❒ ${prefix}admin
-├❒ ${prefix}hentai
-├❒ ${prefix}jadian
-├❒ ${prefix}trapnime
-├❒ ${prefix}sewa add/del waktu
-├❒ ${prefix}listsewa
-├❒ ${prefix}ceksewa
-├❒ ${prefix}premium add @user waktu
-├❒ ${prefix}cekpremium
-├❒ ${prefix}listprem
-├❒ ${prefix}belipremium
-├❒ ${prefix}sewabot
-├❒ ${prefix}verify
-├❒ ${prefix}limit
-├❒ ${prefix}profile
-├❒ ${prefix}buylimit
-├❒ ${prefix}buyglimit
-├❒ ${prefix}blowjob
-├❒ ${prefix}awoo
-└❒ ${prefix}megumin
+	return`❑  *GROUP MENU* ❑
+
+${prefix}add 62xxx
+${prefix}kick 62xxx
+${prefix}ping
+${prefix}antilink [on / off]
+${prefix}get [link]
+${prefix}getpp _@user_
+${prefix}getbio _@user_
+${prefix}getname [reply msg user]
+${prefix}size _reply media_
+${prefix}colongsw _reply sw_
+${prefix}tagall
+${prefix}listonline
+${prefix}caripesan query
+${prefix}caripesan2 [query]
+${prefix}searchmsg [query|total]
+${prefix}sider [reply pesan bot]
+${prefix}del [reply pesan bot]
+${prefix}q [reply pesan]
+${prefix}afk [reason]
+${prefix}getsider [reply pesan bot]
+${prefix}tagall
+${prefix}revoke
+${prefix}setname
+${prefix}ppcouple
+${prefix}promoteall
+${prefix}demoteall
+${prefix}admin
+${prefix}hentai
+${prefix}jadian
+${prefix}trapnime
+${prefix}sewa add/del waktu
+${prefix}listsewa
+${prefix}ceksewa
+${prefix}premium add @user waktu
+${prefix}cekpremium
+${prefix}listprem
+${prefix}belipremium
+${prefix}sewabot
+${prefix}verify
+${prefix}limit
+${prefix}profile
+${prefix}buylimit
+${prefix}buyglimit
+${prefix}blowjob
+${prefix}awoo
+${prefix}megumin
 `
 }
 
 const ownermenu = (prefix) => {
-	return`┌❑  *OWNER MENU* ❑
-│
-├❒ ${prefix}setmenu location
-├❒ ${prefix}setmenu document
-├❒ ${prefix}setmenu list
-├❒ ${prefix}setmenu troli
-├❒ ${prefix}setmenu troli2
-├❒ ${prefix}setmenu katalog
-├❒ ${prefix}setmenu katalog2
-├❒ ${prefix}off
-├❒ ${prefix}on
-├❒ ${prefix}buggc
-├❒ ${prefix}bc
-├❒ ${prefix}bcimage
-├❒ ${prefix}bcgif
-├❒ ${prefix}bcvideo
-├❒ ${prefix}bcaudio
-├❒ ${prefix}bcsticker
-├❒ ${prefix}ban
-├❒ ${prefix}unban
-├❒ ${prefix}block
-├❒ ${prefix}unblock
-├❒ ${prefix}status
-├❒ ${prefix}clearall
-├❒ ${prefix}self
-├❒ ${prefix}public
-├❒ ${prefix}join 
-├❒ ${prefix}out
-├❒ ${prefix}readall
-├❒ ${prefix}unreadall
-├❒ ${prefix}archive
-├❒ ${prefix}unarchive
-├❒ ${prefix}pin
-├❒ ${prefix}delthischat
-├❒ ${prefix}unpin
-├❒ ${prefix}autoread <query> [on / off]
-├❒ ${prefix}setthumb
-├❒ ${prefix}settarget
-├❒ ${prefix}setfakeimg
-├❒ ${prefix}setreply
-├❒ ${prefix}term _code_
-├❒  < _code_
-├❒ $  _termux code_
-├❒ =>  _eval async_
-└❒ x or > _code_
+	return`❑  *OWNER MENU* ❑
+
+${prefix}setmenu location
+${prefix}setmenu document
+${prefix}setmenu list
+${prefix}setmenu troli
+${prefix}setmenu troli2
+${prefix}setmenu katalog
+${prefix}setmenu katalog2
+${prefix}off
+${prefix}on
+${prefix}buggc
+${prefix}bc
+${prefix}bcimage
+${prefix}bcgif
+${prefix}bcvideo
+${prefix}bcaudio
+${prefix}bcsticker
+${prefix}ban
+${prefix}unban
+${prefix}block
+${prefix}unblock
+${prefix}status
+${prefix}clearall
+${prefix}self
+${prefix}public
+${prefix}join 
+${prefix}out
+${prefix}readall
+${prefix}unreadall
+${prefix}archive
+${prefix}unarchive
+${prefix}pin
+${prefix}delthischat
+${prefix}unpin
+${prefix}autoread <query> [on / off]
+${prefix}setthumb
+${prefix}settarget
+${prefix}setfakeimg
+${prefix}setreply
+${prefix}term _code_
+< _code_
+$  _termux code_
+=>  _eval async_
+x or > _code_
 `
 }
 
 const setStcCmd = (prefix) => {
-	return`┌❑  *SET STC CMD* ❑
-│
-├❒ ${prefix}set_stc_menu
-├❒ ${prefix}set_stc_ping
-├❒ ${prefix}set_stc_gclose
-├❒ ${prefix}set_stc_gopen
-├❒ ${prefix}set_stc_itos
-├❒ ${prefix}set_stc_toimg
-├❒ ${prefix}set_stc_self
-└❒ ${prefix}set_stc_public
+	return`❑  *SET STC CMD* ❑
+
+${prefix}set_stc_menu
+${prefix}set_stc_ping
+${prefix}set_stc_gclose
+${prefix}set_stc_gopen
+${prefix}set_stc_itos
+${prefix}set_stc_toimg
+${prefix}set_stc_self
+${prefix}set_stc_public
 
 Cara penggunaan :
 > ${prefix}set_stc_menu _fileLenght sticker_
@@ -1259,430 +1261,340 @@ Example :
 }
 
 const storage = (prefix) => {
-	return`┌❑  *STORAGE MENU* ❑
-│
-├❒ ${prefix}addstik 
-├❒ ${prefix}addimg 
-├❒ ${prefix}addvid 
-├❒ ${prefix}addvn   
-├❒ ${prefix}liststick
-├❒ ${prefix}listimg
-├❒ ${prefix}listvid
-├❒ ${prefix}listvn
-├❒ ${prefix}addrespon
-├❒ ${prefix}delrespon
-└❒ ${prefix}listrespon
+	return`❑  *STORAGE MENU* ❑
+
+${prefix}addstik 
+${prefix}addimg 
+${prefix}addvid 
+${prefix}addvn   
+${prefix}liststick
+${prefix}listimg
+${prefix}listvid
+${prefix}listvn
+${prefix}addrespon
+${prefix}delrespon
+${prefix}listrespon
 `
 }
 const cecanmenu = (prefix) => {
-	return`┌❑  *GACHA CECAN* ❑
-│
-├❒ ${prefix}china
-├❒ ${prefix}indonesia
-├❒ ${prefix}malaysia
-├❒ ${prefix}thailand
-├❒ ${prefix}korea
-├❒ ${prefix}japan
-├❒ ${prefix}vietnam
-├❒ ${prefix}jenni
-├❒ ${prefix}jiso
-├❒ ${prefix}lisa
-└❒ ${prefix}rose
+	return`❑  *GACHA CECAN* ❑
+
+${prefix}china
+${prefix}indonesia
+${prefix}malaysia
+${prefix}thailand
+${prefix}korea
+${prefix}japan
+${prefix}vietnam
+${prefix}jenni
+${prefix}jiso
+${prefix}lisa
+${prefix}rose
 `
 }
 
 const tag = (prefix) => {
-	return`┌❑  *TAG MENU* ❑
-│
-├❒ ${prefix}hidetag
-├❒ ${prefix}kontag
-├❒ ${prefix}sticktag
-├❒ ${prefix}totag
-├❒ ${prefix}ganteng 
-├❒ ${prefix}cantik 
-├❒ ${prefix}jelek 
-├❒ ${prefix}goblok  
-├❒ ${prefix}bego 
-├❒ ${prefix}pinter 
-├❒ ${prefix}jago 
-├❒ ${prefix}nolep 
-├❒ ${prefix}monyet  
-├❒ ${prefix}babi 
-├❒ ${prefix}beban 
-├❒ ${prefix}baik 
-├❒ ${prefix}jahat 
-├❒ ${prefix}anjing 
-├❒ ${prefix}haram 
-├❒ ${prefix}kontol 
-├❒ ${prefix}pakboy 
-├❒ ${prefix}pakgirl 
-├❒ ${prefix}wibu 
-├❒ ${prefix}hebat 
-├❒ ${prefix}sadboy 
-└❒ ${prefix}sadgirl  
+	return`❑  *TAG MENU* ❑
+
+${prefix}hidetag
+${prefix}kontag
+${prefix}sticktag
+${prefix}totag
+${prefix}ganteng 
+${prefix}cantik 
+${prefix}jelek 
+${prefix}goblok  
+${prefix}bego 
+${prefix}pinter 
+${prefix}jago 
+${prefix}nolep 
+${prefix}monyet  
+${prefix}babi 
+${prefix}beban 
+${prefix}baik 
+${prefix}jahat 
+${prefix}anjing 
+${prefix}haram 
+${prefix}kontol 
+${prefix}pakboy 
+${prefix}pakgirl 
+${prefix}wibu 
+${prefix}hebat 
+${prefix}sadboy 
+${prefix}sadgirl  
 `
 }
 
 const upmenu = (prefix) => {
-	return`┌❑  *UP ESWE* ❑
-│
-├❒ ${prefix}upswteks
-├❒ ${prefix}upswimage
-└❒ ${prefix}upswvideo
+	return`❑  *UP ESWE* ❑
+
+${prefix}upswteks
+${prefix}upswimage
+${prefix}upswvideo
 `
 }
 const nsfw = (prefix) => {
-	return`┌❑  *NSFW & SFW* ❑
-│
-├❒ ${prefix}hentaivid
-├❒ ${prefix}ahegao
-├❒ ${prefix}ass
-├❒ ${prefix}bdsm
-├❒ ${prefix}blowjob
-├❒ ${prefix}blowjob2
-├❒ ${prefix}cuckold
-├❒ ${prefix}cum
-├❒ ${prefix}ero
-├❒ ${prefix}femdom
-├❒ ${prefix}foot
-├❒ ${prefix}gangbang
-├❒ ${prefix}glasses
-├❒ ${prefix}jahy
-├❒ ${prefix}manga
-├❒ ${prefix}masturbation
-├❒ ${prefix}neko
-├❒ ${prefix}orgy
-├❒ ${prefix}panties
-├❒ ${prefix}pussy
-├❒ ${prefix}tentacles
-├❒ ${prefix}thighs
-├❒ ${prefix}yuri
-├❒ ${prefix}feet
-├❒ ${prefix}lewdkemo
-├❒ ${prefix}woof
-├❒ ${prefix}gasm
-├❒ ${prefix}solo
-├❒ ${prefix}8ball
-├❒ ${prefix}goose
-├❒ ${prefix}avatar
-├❒ ${prefix}hololewd
-├❒ ${prefix}gecg
-├❒ ${prefix}holo
-├❒ ${prefix}fox_girl
-├❒ ${prefix}tits
-├❒ ${prefix}eroyuri
-├❒ ${prefix}holoyero
-├❒ ${prefix}lizard
-├❒ ${prefix}keta
-├❒ ${prefix}eron
-├❒ ${prefix}erok
-├❒ ${prefix}kemonomimi
-├❒ ${prefix}cum_jpg
-├❒ ${prefix}nsfw_avatar
-├❒ ${prefix}erofeet
-├❒ ${prefix}meow
-├❒ ${prefix}wallpaper
-├❒ ${prefix}waifu
-├❒ ${prefix}trap
-├❒ ${prefix}lewd
-├❒ ${prefix}pussy_jpg
-├❒ ${prefix}futanari
-├❒ ${prefix}lewdk
-├❒ ${prefix}solog
-├❒ ${prefix}smug
-├❒ ${prefix}cum
-├❒ ${prefix}slap
-├❒ ${prefix}les
-├❒ ${prefix}erokemo
-├❒ ${prefix}bj
-├❒ ${prefix}pwankg
-├❒ ${prefix}pat
-├❒ ${prefix}poke
-├❒ ${prefix}feed
-├❒ ${prefix}nsfw_neko_gif
-├❒ ${prefix}pussy
-├❒ ${prefix}feetg
-├❒ ${prefix}baka
-├❒ ${prefix}hug
-├❒ ${prefix}kiss
-├❒ ${prefix}tickle
-├❒ ${prefix}spank
-├❒ ${prefix}kuni
-├❒ ${prefix}classic
-├❒ ${prefix}boobs
-├❒ ${prefix}anal
-├❒ ${prefix}ngif
-├❒ ${prefix}cuddle
-└❒ ${prefix}zettai
+	return`❑  *NSFW & SFW* ❑
+
+*Astaghfirullah 😡*
 `
 }
 const asupan = (prefix) => {
-	return`┌❑  *ASUPAN MENU* ❑
-│
-├❒ ${prefix}rikagusriani 
-├❒ ${prefix}ukhty 
-├❒ ${prefix}santuy 
-├❒ ${prefix}geayubi   
-├❒ ${prefix}bocil
-├❒ ${prefix}asupan
-├❒ ${prefix}chika 
-├❒ ${prefix}delvira 
-├❒ ${prefix}ayu   
-├❒ ${prefix}bunga
-├❒ ${prefix}aura
-├❒ ${prefix}nisa 
-├❒ ${prefix}ziva 
-├❒ ${prefix}yana   
-├❒ ${prefix}viona
-├❒ ${prefix}syania
-├❒ ${prefix}riri   
-├❒ ${prefix}syifa
-├❒ ${prefix}mama_gina
-├❒ ${prefix}alcakenya 
-└❒ ${prefix}mangayutri
+	return`❑  *ASUPAN MENU* ❑
+
+${prefix}rikagusriani 
+${prefix}ukhty 
+${prefix}santuy 
+${prefix}geayubi   
+${prefix}bocil
+${prefix}asupan
+${prefix}chika 
+${prefix}delvira 
+${prefix}ayu   
+${prefix}bunga
+${prefix}aura
+${prefix}nisa 
+${prefix}ziva 
+${prefix}yana   
+${prefix}viona
+${prefix}syania
+${prefix}riri   
+${prefix}syifa
+${prefix}mama_gina
+${prefix}alcakenya 
+${prefix}mangayutri
 `
 }
 const telestiker = (prefix) => {
-	return`┌❑  *STICKERS MENU* ❑
-│
-├❒ ${prefix}awoawo
-├❒ ${prefix}benedict
-├❒ ${prefix}chat
-├❒ ${prefix}dbfly
-├❒ ${prefix}dino_kuning
-├❒ ${prefix}doge
-├❒ ${prefix}gojosatoru
-├❒ ${prefix}hope_boy
-├❒ ${prefix}jisoo
-├❒ ${prefix}kr_robot
-├❒ ${prefix}kucing
-├❒ ${prefix}lonte
-├❒ ${prefix}manusia_lidi
-├❒ ${prefix}menjamet
-├❒ ${prefix}meow
-├❒ ${prefix}nicholas
-├❒ ${prefix}patrick
-├❒ ${prefix}popoci
-├❒ ${prefix}sponsbob
-├❒ ${prefix}kawan_sponsbob
-└❒ ${prefix}tyni
+	return`❑  *STICKERS MENU* ❑
+
+${prefix}awoawo
+${prefix}benedict
+${prefix}chat
+${prefix}dbfly
+${prefix}dino_kuning
+${prefix}doge
+${prefix}gojosatoru
+${prefix}hope_boy
+${prefix}jisoo
+${prefix}kr_robot
+${prefix}kucing
+${prefix}lonte
+${prefix}manusia_lidi
+${prefix}menjamet
+${prefix}meow
+${prefix}nicholas
+${prefix}patrick
+${prefix}popoci
+${prefix}sponsbob
+${prefix}kawan_sponsbob
+${prefix}tyni
 `
 }
 const image_effect_menu = (prefix) => {
-	return`┌❑  *IMAGE EFFECT* ❑
-│
-├❒ ${prefix}trigger
-├❒ ${prefix}gay
-├❒ ${prefix}glass
-├❒ ${prefix}passed
-├❒ ${prefix}jail
-├❒ ${prefix}comrade
-├❒ ${prefix}green
-├❒ ${prefix}blue
-├❒ ${prefix}greyscale
-├❒ ${prefix}invert
-├❒ ${prefix}invertgreyscale
-├❒ ${prefix}red
-├❒ ${prefix}blurple
-├❒ ${prefix}blurple2
-├❒ ${prefix}wasted
-├❒ ${prefix}wanted
-├❒ ${prefix}utatoo
-├❒ ${prefix}unsharpen
-├❒ ${prefix}thanos
-├❒ ${prefix}sniper
-├❒ ${prefix}sharpen
-├❒ ${prefix}scary
-├❒ ${prefix}rip
-├❒ ${prefix}rejected
-├❒ ${prefix}redple
-├❒ ${prefix}posterize
-├❒ ${prefix}ps4
-├❒ ${prefix}pixelize
-├❒ ${prefix}missionpassed
-├❒ ${prefix}moustache
-├❒ ${prefix}lookwhatkarenhave
-├❒ ${prefix}instagram
-├❒ ${prefix}glitch
-├❒ ${prefix}frame
-├❒ ${prefix}fire
-├❒ ${prefix}distort
-├❒ ${prefix}dictator
-├❒ ${prefix}deepfry
-├❒ ${prefix}ddungeon
-├❒ ${prefix}circle
-├❒ ${prefix}challenger
-├❒ ${prefix}burn
-├❒ ${prefix}brazzers
-├❒ ${prefix}beautiful
-└❒ ${prefix}sepia
+	return`❑  *IMAGE EFFECT* ❑
+
+${prefix}trigger
+${prefix}gay
+${prefix}glass
+${prefix}passed
+${prefix}jail
+${prefix}comrade
+${prefix}green
+${prefix}blue
+${prefix}greyscale
+${prefix}invert
+${prefix}invertgreyscale
+${prefix}red
+${prefix}blurple
+${prefix}blurple2
+${prefix}wasted
+${prefix}wanted
+${prefix}utatoo
+${prefix}unsharpen
+${prefix}thanos
+${prefix}sniper
+${prefix}sharpen
+${prefix}scary
+${prefix}rip
+${prefix}rejected
+${prefix}redple
+${prefix}posterize
+${prefix}ps4
+${prefix}pixelize
+${prefix}missionpassed
+${prefix}moustache
+${prefix}lookwhatkarenhave
+${prefix}instagram
+${prefix}glitch
+${prefix}frame
+${prefix}fire
+${prefix}distort
+${prefix}dictator
+${prefix}deepfry
+${prefix}ddungeon
+${prefix}circle
+${prefix}challenger
+${prefix}burn
+${prefix}brazzers
+${prefix}beautiful
+${prefix}sepia
 `
 }
 const coganmenu = (prefix) => {
-	return`┌❑ *GACHA COGAN* ❑
-│
-├❒ ${prefix}baekhyung  
-├❒ ${prefix}dohkyungsoo  
-├❒ ${prefix}huangzitao  
-├❒ ${prefix}jhope  
-├❒ ${prefix}jimin 
-├❒ ${prefix}jungkook 
-├❒ ${prefix}kimjondae  
-├❒ ${prefix}kimjong  
-├❒ ${prefix}kimjunmyeon  
-├❒ ${prefix}kimminseok 
-├❒ ${prefix}kimnanjoon  
-├❒ ${prefix}kimseok  
-├❒ ${prefix}kimtaehyung  
-├❒ ${prefix}luhan  
-├❒ ${prefix}ohsehun 
-├❒ ${prefix}parkchanyeol 
-├❒ ${prefix}suga  
-└❒ ${prefix}wuyifan  
+	return`❑ *GACHA COGAN* ❑
+
+${prefix}baekhyung  
+${prefix}dohkyungsoo  
+${prefix}huangzitao  
+${prefix}jhope  
+${prefix}jimin 
+${prefix}jungkook 
+${prefix}kimjondae  
+${prefix}kimjong  
+${prefix}kimjunmyeon  
+${prefix}kimminseok 
+${prefix}kimnanjoon  
+${prefix}kimseok  
+${prefix}kimtaehyung  
+${prefix}luhan  
+${prefix}ohsehun 
+${prefix}parkchanyeol 
+${prefix}suga  
+${prefix}wuyifan  
 `
 }
 
 const quotesmenu = (prefix) => {
-	return `┌❑ *QUOTES MENU* ❑
-│
-├❒ ${prefix}katailham  
-├❒ ${prefix}dare   
-├❒ ${prefix}truth  
-├❒ ${prefix}katabijak_lucu   
-├❒ ${prefix}katacaklontong  
-└❒ ${prefix}katadilan  
+	return `❑ *QUOTES MENU* ❑
+
+${prefix}katailham  
+${prefix}dare   
+${prefix}truth  
+${prefix}katabijak_lucu   
+${prefix}katacaklontong  
+${prefix}katadilan  
 `
 }
 const shopmenu = (prefix) => {
-	return `┌❑ *SHOP MENU* ❑
-│
-├❒ ${prefix}shop  
-├❒ ${prefix}price  
-├❒ ${prefix}pubg   
-├❒ ${prefix}ml   
-├❒ ${prefix}ff   
-├❒ ${prefix}aov   
-├❒ ${prefix}cod  
-├❒ ${prefix}sausage   
-├❒ ${prefix}lol  
-└❒ ${prefix}valo  
+	return `❑ *SHOP MENU* ❑
+
+*Not Available*
 `
 }
 const animemenu = (prefix) => {
-	return`┌❑ *ANIME MENU* ❑
-│
-├❒ ${prefix}anna
-├❒ ${prefix}asuna_yuki 
-├❒ ${prefix}ayuzawa 
-├❒ ${prefix}chitoge 
-├❒ ${prefix}emilia
-├❒ ${prefix}erza 
-├❒ ${prefix}hinata 
-├❒ ${prefix}inori 
-├❒ ${prefix}kaga_kouko 
-├❒ ${prefix}kaori_miyazono 
-├❒ ${prefix}kotori_minami
-├❒ ${prefix}mikasa 
-├❒ ${prefix}mio_akiyama 
-├❒ ${prefix}mizore_sirayuki 
-├❒ ${prefix}nakiri_alice 
-├❒ ${prefix}naruto 
-├❒ ${prefix}riyas_gremori
-├❒ ${prefix}sakura 
-├❒ ${prefix}sasuke 
-├❒ ${prefix}sento_isuzu 
-├❒ ${prefix}shana 
-├❒ ${prefix}shiina 
-├❒ ${prefix}shinka
-├❒ ${prefix}winry
-├❒ ${prefix}yukino 
-├❒ ${prefix}yuzuki 
-├❒ ${prefix}akame
-└❒ ${prefix}mikosiba
+	return`❑ *ANIME MENU* ❑
+
+${prefix}anna
+${prefix}asuna_yuki 
+${prefix}ayuzawa 
+${prefix}chitoge 
+${prefix}emilia
+${prefix}erza 
+${prefix}hinata 
+${prefix}inori 
+${prefix}kaga_kouko 
+${prefix}kaori_miyazono 
+${prefix}kotori_minami
+${prefix}mikasa 
+${prefix}mio_akiyama 
+${prefix}mizore_sirayuki 
+${prefix}nakiri_alice 
+${prefix}naruto 
+${prefix}riyas_gremori
+${prefix}sakura 
+${prefix}sasuke 
+${prefix}sento_isuzu 
+${prefix}shana 
+${prefix}shiina 
+${prefix}shinka
+${prefix}winry
+${prefix}yukino 
+${prefix}yuzuki 
+${prefix}akame
+${prefix}mikosiba
 `
 }
 
 const groupmenu = (prefix) => {
-	return`┌❑ *GROUP MENU* ❑
-│
-├❒ ${prefix}add 62***
-├❒ ${prefix}kick _@user_
-├❒ ${prefix}radd _reply pesan @user_
-├❒ ${prefix}rkick _reply pesan @user_
-├❒ ${prefix}ping
-├❒ ${prefix}nsfw [on / off]
-├❒ ${prefix}antilink [on / off]
-├❒ ${prefix}get [link]
-├❒ ${prefix}getpp _@user_
-├❒ ${prefix}getname [reply msg user]
-├❒ ${prefix}size [reply media]
-├❒ ${prefix}colongsw [reply sw]
-├❒ ${prefix}getbio _@user_
-├❒ ${prefix}tagall
-├❒ ${prefix}listonline
-├❒ ${prefix}caripesan query
-├❒ ${prefix}caripesan2 [query]
-├❒ ${prefix}searchmsg [query|total]
-├❒ ${prefix}sider [reply pesan bot]
-├❒ ${prefix}del [reply pesan bot]
-├❒ ${prefix}q [reply pesan]
-├❒ ${prefix}afk [reason]
-├❒ ${prefix}getsider [reply pesan bot]
-├❒ ${prefix}promoteall
-├❒ ${prefix}ppcouple
-├❒ ${prefix}setname [text]
-├❒ ${prefix}revoke
-├❒ ${prefix}setdesk [text]
-├❒ ${prefix}spam text|jumlah
-├❒ ${prefix}demoteall
-├❒ ${prefix}welcome [on / off]
-├❒ ${prefix}antibug [on / off]
-├❒ ${prefix}nsfw [on / off]
-├❒ ${prefix}antilink [on / off]
-├❒ ${prefix}antidelete [on / off]
-├❒ ${prefix}anticall [on / off]
-├❒ ${prefix}autoketik [on / off]
-├❒ ${prefix}autobio [on / off]
-├❒ ${prefix}antihidetag [on / off]
-├❒ ${prefix}autovn [on / off]
-├❒ ${prefix}register [on / off]
-├❒ ${prefix}autorespon [on / off]
-├❒ ${prefix}admin
-├❒ ${prefix}listpc
-├❒ ${prefix}listgroup
-├❒ ${prefix}hentai
-├❒ ${prefix}jadian
-├❒ ${prefix}trapnime
-├❒ ${prefix}sewa add/del waktu
-├❒ ${prefix}listsewa
-├❒ ${prefix}ceksewa
-├❒ ${prefix}premium add 62xxx waktu
-├❒ ${prefix}cekpremium
-├❒ ${prefix}listprem
-├❒ ${prefix}belipremium
-├❒ ${prefix}sewabot
-├❒ ${prefix}verify
-├❒ ${prefix}limit
-├❒ ${prefix}profile
-├❒ ${prefix}buylimit
-├❒ ${prefix}buyglimit
-├❒ ${prefix}awoo
-└❒ ${prefix}megumin
+	return`❑ *GROUP MENU* ❑
+
+${prefix}add 62***
+${prefix}kick _@user_
+${prefix}radd _reply pesan @user_
+${prefix}rkick _reply pesan @user_
+${prefix}ping
+${prefix}nsfw [on / off]
+${prefix}antilink [on / off]
+${prefix}get [link]
+${prefix}getpp _@user_
+${prefix}getname [reply msg user]
+${prefix}size [reply media]
+${prefix}colongsw [reply sw]
+${prefix}getbio _@user_
+${prefix}tagall
+${prefix}listonline
+${prefix}caripesan query
+${prefix}caripesan2 [query]
+${prefix}searchmsg [query|total]
+${prefix}sider [reply pesan bot]
+${prefix}del [reply pesan bot]
+${prefix}q [reply pesan]
+${prefix}afk [reason]
+${prefix}getsider [reply pesan bot]
+${prefix}promoteall
+${prefix}ppcouple
+${prefix}setname [text]
+${prefix}revoke
+${prefix}setdesk [text]
+${prefix}spam text|jumlah
+${prefix}demoteall
+${prefix}welcome [on / off]
+${prefix}antibug [on / off]
+${prefix}nsfw [on / off]
+${prefix}antilink [on / off]
+${prefix}antidelete [on / off]
+${prefix}anticall [on / off]
+${prefix}autoketik [on / off]
+${prefix}autobio [on / off]
+${prefix}antihidetag [on / off]
+${prefix}autovn [on / off]
+${prefix}register [on / off]
+${prefix}autorespon [on / off]
+${prefix}admin
+${prefix}listpc
+${prefix}listgroup
+${prefix}jadian
+${prefix}sewa add/del waktu
+${prefix}listsewa
+${prefix}ceksewa
+${prefix}premium add 62xxx waktu
+${prefix}cekpremium
+${prefix}listprem
+${prefix}belipremium
+${prefix}sewabot
+${prefix}verify
+${prefix}limit
+${prefix}profile
+${prefix}buylimit
+${prefix}buyglimit
+${prefix}awoo
+${prefix}megumin
 `
 }
 
 const kerangmenu = (prefix) =>{
-	return`┌❑ *KERANG MENU* ❑
-│
-├❒ ${prefix} ${prefix}bisakah [query]
-├❒ ${prefix} ${prefix}apakah [query]
-└❒ ${prefix} ${prefix}kapankah [query]
+	return`❑ *KERANG MENU* ❑
+
+${prefix} ${prefix}bisakah [query]
+${prefix} ${prefix}apakah [query]
+${prefix} ${prefix}kapankah [query]
 `
 }
 
 const soundmenu = (prefix) =>{
 	return`┌❑ *SOUND MENU* ❑
-│
+
 ├❒ ${prefix}sound1
 ├❒ ${prefix}sound2
 ├❒ ${prefix}sound3
