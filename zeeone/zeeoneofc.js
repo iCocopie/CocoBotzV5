@@ -4,13 +4,15 @@ const help = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc
 	return`┌❏ *INDONESIA TIME*
 ${numberik}➛ WIB : ${timuu}
 ${numberik}➛ WITA : ${wita}
-└❏ WIT : ${wit}
+${numberik}➛ WIT : ${wit}
+└❏ 
                           
 ┌❏ *TODAY*
 ${numberik}➛${ucapannya2}
 ${numberik}➛Jam : ${timuu}
 ${numberik}➛Hari : ${thisDay}
-└❏ Tanggal : ${ini_tanggal}
+${numberik}➛Tanggal : ${ini_tanggal}
+└❏
 
 ┌❏ *DEVICE*
 ${numberik}➛Whatsapp : ${wa_version}
@@ -19,7 +21,8 @@ ${numberik}➛Versi HP : ${device_model}
 ${numberik}➛Versi OS : ${os_version}
 ${numberik}➛RAM : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ${numberik}➛MCC : ${mcc}
-└❏ MNC : ${mnc}
+${numberik}➛MNC : ${mnc}
+└❏
 
 ┌─❑「 *BOT INFO* 」
 ${numberik}➛ Owner : ${ownername}
@@ -33,8 +36,8 @@ ${numberik}➛Browser : Chrome
 ${numberik}➛Server : Baileys
 ${numberik}➛Version : 3.5.2
 ${numberik}➛Speed : ${latensii.toFixed(4)} Second
-└❏ ${tekss}
-
+${numberik}➛${tekss}
+└❏
 
 ┌❑ *LIST MENU* ❑
 │
@@ -65,55 +68,53 @@ ${numberik}➛Speed : ${latensii.toFixed(4)} Second
 `
 }
 const convert = (prefix) => {
-	return`┌❑ *CONVERT MENU* ❑
-│
-├❒ ${prefix}tts query
-├❒ ${prefix}toimg [reply img]
-├❒ ${prefix}tomp3 [reply vid]
-├❒ ${prefix}tomp4 [reply stc]
-├❒ ${prefix}togif [reply stc]
-├❒ ${prefix}slow
-├❒ ${prefix}tupai
-├❒ ${prefix}fast
-├❒ ${prefix}reverse
-└❒ ${prefix}tourl [reply vid/img]
+	return`❑ *CONVERT MENU* ❑
+${prefix}tts query
+${prefix}toimg [reply img]
+${prefix}tomp3 [reply vid]
+${prefix}tomp4 [reply stc]
+{prefix}togif [reply stc]
+${prefix}slow
+${prefix}tupai
+${prefix}fast
+${prefix}reverse
+${prefix}tourl [reply vid/img]
 `
 }
 const download = (prefix) => {
-	return`┌❑ *DOWNLOAD MENU* ❑
-│
-├❒ ${prefix}ytsearch [query]
-├❒ ${prefix}ytshorts [url]
-├❒ ${prefix}igstalk [username]
-├❒ ${prefix}ghstalk [username]
-├❒ ${prefix}play [query]
-├❒ ${prefix}playmp4 [query]
-├❒ ${prefix}video [query]
-├❒ ${prefix}ytmp3 [link]
-├❒ ${prefix}ytmp4 [link]
-├❒ ${prefix}ig [link]
-├❒ ${prefix}igphoto [link]
-├❒ ${prefix}igvideo [link]
-├❒ ${prefix}igtv [link]
-├❒ ${prefix}igreels [link]
-├❒ ${prefix}twitter [link]
-├❒ ${prefix}tiktokwm [link]
-├❒ ${prefix}tiktoknowm [link]
-├❒ ${prefix}tiktokaudio [link]
-├❒ ${prefix}facebook [link]
-├❒ ${prefix}facebookhd [link]
-├❒ ${prefix}facebooksd [link]
-├❒ ${prefix}facebookaudio [link]
-├❒ ${prefix}brainly [query]
-├❒ ${prefix}image [query]
-├❒ ${prefix}pinterest [query]
-├❒ ${prefix}pinterest2 [query]
-├❒ ${prefix}playstore [query]
-├❒ ${prefix}gcwa [query]
-├❒ ${prefix}lirik [query]
-├❒ ${prefix}komiku [query]
-├❒ ${prefix}otaku [query]
-└❒ ${prefix}anime _random_
+	return`❑ *DOWNLOAD MENU* ❑
+${prefix}ytsearch [query]
+${prefix}ytshorts [url]
+${prefix}igstalk [username]
+${prefix}ghstalk [username]
+${prefix}play [query]
+${prefix}playmp4 [query]
+${prefix}video [query]
+${prefix}ytmp3 [link]
+${prefix}ytmp4 [link]
+${prefix}ig [link]
+${prefix}igphoto [link]
+${prefix}igvideo [link]
+${prefix}igtv [link]
+${prefix}igreels [link]
+${prefix}twitter [link]
+${prefix}tiktokwm [link]
+${prefix}tiktoknowm [link]
+${prefix}tiktokaudio [link]
+${prefix}facebook [link]
+${prefix}facebookhd [link]
+${prefix}facebooksd [link]
+${prefix}facebookaudio [link]
+${prefix}brainly [query]
+${prefix}image [query]
+${prefix}pinterest [query]
+${prefix}pinterest2 [query]
+${prefix}playstore [query]
+${prefix}gcwa [query]
+${prefix}lirik [query]
+${prefix}komiku [query]
+${prefix}otaku [query]
+${prefix}anime _random_
 `
 }
 const allmenu = (kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii)  => {
@@ -866,328 +867,273 @@ ${numberik} ${prefix}mikosiba
 }
 
 const fun = (prefix) => {
-	return`┌❑  *FUN & GAME MENU* ❑
-│
-├❒ ${prefix}start
-├❒ ${prefix}leave
-├❒ ${prefix}skip
-├❒ ${prefix}jelajah
-├❒ ${prefix}adventure
-├❒ ${prefix}nambang
-├❒ ${prefix}nebang
-├❒ ${prefix}mancing
-├❒ ${prefix}lebur
-├❒ ${prefix}jualikan
-├❒ ${prefix}jualcoal
-├❒ ${prefix}jualstone
-├❒ ${prefix}jualingot
-├❒ ${prefix}jualkayu
-├❒ ${prefix}slot
-├❒ ${prefix}inventory
-├❒ ${prefix}dompet
-├❒ ${prefix}suit
-├❒ ${prefix}judi
-├❒ ${prefix}fitnah
-├❒ ${prefix}absen
-├❒ ${prefix}absensi
-├❒ ${prefix}tebakgambar
-├❒ ${prefix}caklontong
-├❒ ${prefix}family100
-├❒ ${prefix}tebakanime
-├❒ ${prefix}tebakkalimat
-├❒ ${prefix}susunkata
-├❒ ${prefix}tekateki
-├❒ ${prefix}siapaaku
-├❒ ${prefix}tebaklirik
-├❒ ${prefix}tebakkata
-├❒ ${prefix}fitnahpc text|balasan
-├❒ ${prefix}kontak 62xxx|text
-├❒ ${prefix}tictactoe @user
-├❒ ${prefix}delttt
-├❒ ${prefix}voting
-├❒ ${prefix}delvote
-├❒ ${prefix}jadibot
-├❒ ${prefix}stopjadibot
-└❒ ${prefix}listbot
+	return`❑  *FUN & GAME MENU* ❑
+
+${prefix}start
+${prefix}leave
+${prefix}skip
+${prefix}jelajah
+${prefix}adventure
+${prefix}nambang
+${prefix}nebang
+${prefix}mancing
+${prefix}lebur
+${prefix}jualikan
+${prefix}jualcoal
+${prefix}jualstone
+${prefix}jualingot
+${prefix}jualkayu
+${prefix}slot
+${prefix}inventory
+${prefix}dompet
+${prefix}suit
+${prefix}judi
+${prefix}fitnah
+${prefix}absen
+${prefix}absensi
+${prefix}tebakgambar
+${prefix}caklontong
+${prefix}family100
+${prefix}tebakanime
+${prefix}tebakkalimat
+${prefix}susunkata
+${prefix}tekateki
+${prefix}siapaaku
+${prefix}tebaklirik
+${prefix}tebakkata
+${prefix}fitnahpc text|balasan
+${prefix}kontak 62xxx|text
+${prefix}tictactoe @user
+${prefix}delttt
+${prefix}voting
+${prefix}delvote
+${prefix}jadibot
+${prefix}stopjadibot
+${prefix}listbot
 `
 }
 
 const maker = (prefix) => {
-	return`┌❑  *MAKER MENU* ❑
-│
-├❒ ${prefix}sticker
-├❒ ${prefix}smeme [text]
-├❒ ${prefix}memegen [atas|bawah]
-├❒ ${prefix}ktpmaker
-├❒ ${prefix}attp
-├❒ ${prefix}ttp
-├❒ ${prefix}ttp1
-├❒ ${prefix}ttp2
-├❒ ${prefix}ttp3
-├❒ ${prefix}ttp4
-├❒ ${prefix}swm author|packname
-├❒ ${prefix}take author|packname
-│❒ ${prefix}fdeface
-│❒ ${prefix}amongus 
-│❒ ${prefix}tweettrump text
-│❒ ${prefix}cmm text
-│❒ ${prefix}kanna text
-│❒ ${prefix}nulis text
-│❒ ${prefix}tahta text
-│❒ ${prefix}ytgold text
-│❒ ${prefix}ytsilver
-└❒ ${prefix}emoji 👼
+	return`❑  *MAKER MENU* ❑
+
+${prefix}sticker
+${prefix}smeme [text]
+${prefix}memegen [atas|bawah]
+${prefix}ktpmaker
+${prefix}attp
+${prefix}ttp
+${prefix}ttp1
+${prefix}ttp2
+${prefix}ttp3
+${prefix}ttp4
+${prefix}swm author|packname
+${prefix}take author|packname
+${prefix}fdeface
+${prefix}amongus 
+${prefix}tweettrump text
+${prefix}cmm text
+${prefix}kanna text
+${prefix}nulis text
+${prefix}tahta text
+${prefix}ytgold text
+${prefix}ytsilver
+${prefix}emoji 👼
 `
 }
 
 const textpro = (prefix) => {
-	return`┌❑  *TEXTPRO MENU* ❑
-│
-├❒ ${prefix}halloween2 text|text2
-├❒ ${prefix}horror text|text2
-├❒ ${prefix}game8bit text|text2
-├❒ ${prefix}layered text|text2
-├❒ ${prefix}glitch2 text|text2
-├❒ ${prefix}coolg text|text2
-├❒ ${prefix}coolwg text|text2
-├❒ ${prefix}realistic text|text2
-├❒ ${prefix}space3d text|text2
-├❒ ${prefix}gtiktok text|text2
-├❒ ${prefix}stone text|text2
-├❒ ${prefix}marvel text|text2
-├❒ ${prefix}marvel2 text|text2
-├❒ ${prefix}pornhub text|text2
-├❒ ${prefix}avengers text|text2
-├❒ ${prefix}metalr text|text2
-├❒ ${prefix}metalg text|text2
-├❒ ${prefix}metalg2 text|text2
-├❒ ${prefix}halloween2 text|text2
-├❒ ${prefix}lion text|text2
-├❒ ${prefix}wolf_bw text|text2
-├❒ ${prefix}wolf_g text|text2
-├❒ ${prefix}ninja text|text2
-├❒ ${prefix}3dsteel text|text2
-├❒ ${prefix}horror2 text|text2
-├❒ ${prefix}lava text|text2
-├❒ ${prefix}bagel text|text2
-├❒ ${prefix}blackpink text
-├❒ ${prefix}rainbow2 text
-├❒ ${prefix}water_pipe text
-├❒ ${prefix}halloween text
-├❒ ${prefix}sketch text
-├❒ ${prefix}sircuit text
-├❒ ${prefix}discovery text
-├❒ ${prefix}metallic2 text
-├❒ ${prefix}fiction text
-├❒ ${prefix}demon text
-├❒ ${prefix}transformer text
-├❒ ${prefix}berry text
-├❒ ${prefix}thunder text
-├❒ ${prefix}magma text
-├❒ ${prefix}3dstone text
-├❒ ${prefix}neon text
-├❒ ${prefix}glitch text
-├❒ ${prefix}harry_potter text
-├❒ ${prefix}embossed text
-├❒ ${prefix}broken text
-├❒ ${prefix}papercut text
-├❒ ${prefix}gradient text
-├❒ ${prefix}glossy text
-├❒ ${prefix}watercolor text
-├❒ ${prefix}multicolor text
-├❒ ${prefix}neon_devil text
-├❒ ${prefix}underwater text
-├❒ ${prefix}bear text
-├❒ ${prefix}wonderfulg text
-├❒ ${prefix}christmas text
-├❒ ${prefix}neon_light text
-├❒ ${prefix}snow text
-├❒ ${prefix}cloudsky text
-├❒ ${prefix}luxury2 text
-├❒ ${prefix}gradient2 text
-├❒ ${prefix}summer text
-├❒ ${prefix}writing text
-├❒ ${prefix}engraved text
-├❒ ${prefix}summery text
-├❒ ${prefix}3dglue text
-├❒ ${prefix}metaldark text
-├❒ ${prefix}neonlight text
-├❒ ${prefix}oscar text
-├❒ ${prefix}minion text
-├❒ ${prefix}holographic text
-├❒ ${prefix}purple text
-├❒ ${prefix}glossyb text
-├❒ ${prefix}deluxe2 text
-├❒ ${prefix}glossyc text
-├❒ ${prefix}fabric text
-├❒ ${prefix}neonc text
-├❒ ${prefix}newyear text
-├❒ ${prefix}newyear2 text
-├❒ ${prefix}metals text
-├❒ ${prefix}xmas text
-├❒ ${prefix}blood text
-├❒ ${prefix}darkg text
-├❒ ${prefix}joker text
-├❒ ${prefix}wicker text
-├❒ ${prefix}natural text
-├❒ ${prefix}firework text
-├❒ ${prefix}skeleton text
-├❒ ${prefix}balloon text
-├❒ ${prefix}balloon2 text
-├❒ ${prefix}balloon3 text
-├❒ ${prefix}balloon4 text
-├❒ ${prefix}balloon5 text
-├❒ ${prefix}balloon6 text
-├❒ ${prefix}balloon7 text
-├❒ ${prefix}steel text
-├❒ ${prefix}gloss text
-├❒ ${prefix}denim text
-├❒ ${prefix}decorate text
-├❒ ${prefix}decorate2 text
-├❒ ${prefix}peridot text
-├❒ ${prefix}rock text
-├❒ ${prefix}glass text
-├❒ ${prefix}glass2 text
-├❒ ${prefix}glass3 text
-├❒ ${prefix}glass4 text
-├❒ ${prefix}glass5 text
-├❒ ${prefix}glass6 text
-├❒ ${prefix}glass7 text
-├❒ ${prefix}glass8 text
-├❒ ${prefix}captain_as2 text
-├❒ ${prefix}robot text
-├❒ ${prefix}equalizer text
-├❒ ${prefix}toxic text
-├❒ ${prefix}sparkling text
-├❒ ${prefix}sparkling2 text
-├❒ ${prefix}sparkling3 text
-├❒ ${prefix}sparkling4 text
-├❒ ${prefix}sparkling5 text
-├❒ ${prefix}sparkling6 text
-├❒ ${prefix}sparkling7 text
-├❒ ${prefix}decorative text
-├❒ ${prefix}chocolate text
-├❒ ${prefix}strawberry text
-├❒ ${prefix}koifish text
-├❒ ${prefix}bread text
-├❒ ${prefix}matrix text
-├❒ ${prefix}blood2 text
-├❒ ${prefix}neonligth2 text
-├❒ ${prefix}thunder2 text
-├❒ ${prefix}3dbox text
-├❒ ${prefix}neon2 text
-├❒ ${prefix}roadw text
-├❒ ${prefix}bokeh text
-├❒ ${prefix}gneon text
-├❒ ${prefix}advanced text
-├❒ ${prefix}dropwater text
-├❒ ${prefix}wall text
-├❒ ${prefix}chrismast text
-├❒ ${prefix}honey text
-├❒ ${prefix}drug text
-├❒ ${prefix}marble text
-├❒ ${prefix}marble2 text
-├❒ ${prefix}ice text
-├❒ ${prefix}juice text
-├❒ ${prefix}rusty text
-├❒ ${prefix}abstra text
-├❒ ${prefix}biscuit text
-├❒ ${prefix}wood text
-├❒ ${prefix}scifi text
-├❒ ${prefix}metalr text
-├❒ ${prefix}purpleg text
-├❒ ${prefix}shiny text 
-├❒ ${prefix}jewelry text
-├❒ ${prefix}jewelry2 text
-├❒ ${prefix}jewelry3 text
-├❒ ${prefix}jewelry4 text
-├❒ ${prefix}jewelry5 text
-├❒ ${prefix}jewelry6 text
-├❒ ${prefix}jewelry7 text
-├❒ ${prefix}jewelry8 text
-├❒ ${prefix}metalh text
-├❒ ${prefix}golden text
-├❒ ${prefix}glitter text
-├❒ ${prefix}glitter2 text
-├❒ ${prefix}glitter3 text
-├❒ ${prefix}glitter4 text
-├❒ ${prefix}glitter5 text
-├❒ ${prefix}glitter6 text
-├❒ ${prefix}glitter7 text
-├❒ ${prefix}metale text
-├❒ ${prefix}carbon text
-├❒ ${prefix}candy text
-├❒ ${prefix}metalb text
-├❒ ${prefix}gemb text
-├❒ ${prefix}3dchrome text
-├❒ ${prefix}metalb2 text
-├❒ ${prefix}metalg text
-└❒ ${prefix}metalg text
+	return`❑  *TEXTPRO MENU* ❑
+
+${prefix}halloween2 text|text2
+${prefix}horror text|text2
+${prefix}game8bit text|text2
+${prefix}layered text|text2
+${prefix}glitch2 text|text2
+${prefix}coolg text|text2
+${prefix}coolwg text|text2
+${prefix}realistic text|text2
+${prefix}space3d text|text2
+${prefix}gtiktok text|text2
+${prefix}stone text|text2
+${prefix}marvel text|text2
+${prefix}marvel2 text|text2
+${prefix}pornhub text|text2
+${prefix}avengers text|text2
+${prefix}metalr text|text2
+${prefix}metalg text|text2
+${prefix}metalg2 text|text2
+${prefix}halloween2 text|text2
+${prefix}lion text|text2
+${prefix}wolf_bw text|text2
+${prefix}wolf_g text|text2
+${prefix}ninja text|text2
+${prefix}3dsteel text|text2
+${prefix}horror2 text|text2
+${prefix}lava text|text2
+${prefix}bagel text|text2
+${prefix}blackpink text
+${prefix}rainbow2 text
+${prefix}water_pipe text
+${prefix}halloween text
+${prefix}sketch text
+${prefix}sircuit text
+${prefix}discovery text
+${prefix}metallic2 text
+${prefix}fiction text
+${prefix}demon text
+${prefix}transformer text
+${prefix}berry text
+${prefix}thunder text
+${prefix}magma text
+${prefix}3dstone text
+${prefix}neon text
+${prefix}glitch text
+${prefix}harry_potter text
+${prefix}embossed text
+${prefix}broken text
+${prefix}papercut text
+${prefix}gradient text
+${prefix}glossy text
+${prefix}watercolor text
+${prefix}multicolor text
+${prefix}neon_devil text
+${prefix}underwater text
+${prefix}bear text
+${prefix}wonderfulg text
+${prefix}christmas text
+${prefix}neon_light text
+${prefix}snow text
+${prefix}cloudsky text
+${prefix}luxury2 text
+${prefix}gradient2 text
+${prefix}summer text
+${prefix}writing text
+${prefix}engraved text
+${prefix}summery text
+${prefix}3dglue text
+${prefix}metaldark text
+${prefix}neonlight text
+${prefix}oscar text
+${prefix}minion text
+${prefix}holographic text
+${prefix}purple text
+${prefix}glossyb text
+${prefix}deluxe2 text
+${prefix}newyear text
+${prefix}newyear2 text
+${prefix}metals text
+${prefix}xmas text
+${prefix}blood text
+${prefix}darkg text
+${prefix}joker text
+${prefix}wicker text
+${prefix}natural text
+${prefix}firework text
+${prefix}skeleton text
+${prefix}balloon text
+${prefix}balloon2 text
+${prefix}balloon3 text
+${prefix}steel text
+${prefix}denim text
+${prefix}decorate text
+${prefix}decorate2 text
+${prefix}captain_as2 text
+${prefix}robot text
+${prefix}equalizer text
+${prefix}toxic text
+${prefix}sparkling text
+${prefix}sparkling2 text
+${prefix}sparkling3 text
+${prefix}sparkling4 text
+${prefix}sparkling5 text
+${prefix}sparkling6 text
+${prefix}sparkling7 text
+${prefix}decorative text
+${prefix}chocolate text
+${prefix}strawberry text
+${prefix}koifish text
+${prefix}bokeh text
+${prefix}wall text
+${prefix}chrismast text
+${prefix}honey text
+${prefix}drug text
+${prefix}marble text
+${prefix}marble2 text
+${prefix}ice text
+${prefix}juice text
+${prefix}rusty text
+${prefix}abstra text
+${prefix}biscuit text
+${prefix}wood text
+${prefix}scifi text
+${prefix}metalr text
+${prefix}carbon text
+${prefix}candy text
 `
 }
 
 const photooxy = (prefix) => {
-	return`┌❑  *PHOTOOXY MENU* ❑
-│
-├❒ ${prefix}captain_as text|text2
-├❒ ${prefix}smoke text|text2
-├❒ ${prefix}tiktok2 text|text2 
-├❒ ${prefix}arcade text|text2
-├❒ ${prefix}battlefield text|text2
-├❒ ${prefix}pubg text|text2
-├❒ ${prefix}shadow text
-├❒ ${prefix}cname text
-├❒ ${prefix}romantic text
-├❒ ${prefix}burnpaper text
-├❒ ${prefix}funnycup text
-├❒ ${prefix}love text
-├❒ ${prefix}undergrass text          
-├❒ ${prefix}heart text
-├❒ ${prefix}coffeecup text
-├❒ ${prefix}wood text          
-├❒ ${prefix}flower text         
-├❒ ${prefix}wooden text 
-├❒ ${prefix}3dsummer text
-├❒ ${prefix}wolf_metal text
-├❒ ${prefix}3dnature text
-├❒ ${prefix}underwater text          
-├❒ ${prefix}goldenrose text
-├❒ ${prefix}vector text
-├❒ ${prefix}typography text
-├❒ ${prefix}typography2 text 
-├❒ ${prefix}underfall text  
-├❒ ${prefix}smokyneon text 
-├❒ ${prefix}rainbow text 
-├❒ ${prefix}graffiti text
-├❒ ${prefix}camouflage text
-├❒ ${prefix}3dglowing text          
-├❒ ${prefix}vintage text
-├❒ ${prefix}honey text 
-├❒ ${prefix}whitecube text
-├❒ ${prefix}avatar text 
-├❒ ${prefix}glowrainbow text
-├❒ ${prefix}nightsky text
-├❒ ${prefix}fur text
-├❒ ${prefix}flaming text          
-├❒ ${prefix}crisp text
-├❒ ${prefix}embroidery text
-├❒ ${prefix}bcake text          
-├❒ ${prefix}3dligth text
-├❒ ${prefix}metallic text 
-├❒ ${prefix}striking text
-├❒ ${prefix}watermelon text         
-├❒ ${prefix}butterfly text
-├❒ ${prefix}harry text
-├❒ ${prefix}glowneon text
-├❒ ${prefix}coffecup2 text          
-├❒ ${prefix}luxury text 
-├❒ ${prefix}cemetery text
-├❒ ${prefix}woodblock text
-├❒ ${prefix}sweet text
-├❒ ${prefix}simple text
-├❒ ${prefix}bevel text
-├❒ ${prefix}underflower text         
-└❒ ${prefix}underflower2 text
+	return`❑  *PHOTOOXY MENU* ❑
+
+${prefix}captain_as text|text2
+${prefix}smoke text|text2
+${prefix}tiktok2 text|text2 
+${prefix}arcade text|text2
+${prefix}battlefield text|text2
+${prefix}pubg text|text2
+${prefix}shadow text
+${prefix}cname text
+${prefix}romantic text
+${prefix}burnpaper text
+${prefix}funnycup text
+${prefix}love text
+${prefix}undergrass text          
+${prefix}heart text
+${prefix}coffeecup text
+${prefix}wood text          
+${prefix}flower text         
+${prefix}wooden text 
+${prefix}3dsummer text
+${prefix}wolf_metal text
+${prefix}3dnature text
+${prefix}underwater text          
+${prefix}goldenrose text
+${prefix}vector text
+${prefix}typography text
+${prefix}typography2 text 
+${prefix}underfall text  
+${prefix}smokyneon text 
+${prefix}rainbow text 
+${prefix}graffiti text
+${prefix}camouflage text
+${prefix}3dglowing text          
+${prefix}vintage text
+${prefix}honey text 
+${prefix}whitecube text
+${prefix}avatar text 
+${prefix}glowrainbow text
+${prefix}nightsky text
+${prefix}fur text
+${prefix}flaming text          
+${prefix}crisp text
+${prefix}embroidery text
+${prefix}bcake text          
+${prefix}3dligth text
+${prefix}metallic text 
+${prefix}striking text
+${prefix}watermelon text         
+${prefix}butterfly text
+${prefix}harry text
+${prefix}glowneon text
+${prefix}coffecup2 text          
+${prefix}luxury text 
+${prefix}cemetery text
+${prefix}woodblock text
+${prefix}sweet text
+${prefix}simple text
+${prefix}bevel text
+${prefix}underflower text         
+${prefix}underflower2 text
 `
 }
 
