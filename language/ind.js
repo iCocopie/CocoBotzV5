@@ -8,10 +8,10 @@ exports.event = (prefix) =>{
 	return` ⚠️ Event grup belum di aktifkan, kirim perintah ${prefix}event on untuk mengaktifkan`
 }
 exports.wait = () => {
-	return `\`\`\`[ ! ] Proses kak...\`\`\``
+	return `\`\`\`[ ! ] Proses Kak...\`\`\``
 	}
 exports.success = () => {
-	return `✅ Selesai...`
+	return `✅ Done...`
 	}
 exports.successBc = () => {
 	return `✅ Sukses Broadcast`
@@ -74,7 +74,7 @@ exports.noteks = (prefix, command) => {
 	return `❎ Example ${prefix + command} zeeone`
 	}
 exports.botNotAdm = () => {
-	return `Jadikan bot sebagai admin u/ menggunakan perintah ini`
+	return `Jadikan bot sebagai admin untuk menggunakan perintah ini`
 	}
 exports.tryAgain = () => {
 	return `❎ Yah gagal, coba ulangi ^_^`
