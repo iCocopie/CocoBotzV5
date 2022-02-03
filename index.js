@@ -403,7 +403,7 @@ await alpha.updatePresence(from, Presence.composing)
 		const isNsfw = isGroup ? _nsfw.includes(from) : false
 		const isEventon = isGroup ? event.includes(from) : false
 		const isSewa = _sewa.checkSewaGroup(from, sewa)
-		const alphaNumber = [`62887435047326@s.whatsapp.net`, `918156874290@s.whatsapp.net` , `628992029499@s.whatsapp.net`]
+		const alphaNumber = [`628992029499@s.whatsapp.net`, `918156874290@s.whatsapp.net` , `628992029499@s.whatsapp.net`]
 		const isCreator = alphaNumber.includes(sender)
 		const isPremium = isOwner || isCreator || mek.key.fromMe ? true : premium.checkPremiumUser(sender, _premium)
 		const gcount = isPremium ? gcounttprem : gcounttuser
@@ -1280,7 +1280,7 @@ if (autobio === false) return
     if (new Date() * 1 - settingstatus > 1000) {
       let _uptime = process.uptime() * 1000;
       let uptimer = clockString(_uptime);
-      await alpha.setStatus(`I'm Userbot 👾 | Runtime ${uptimer} ⏲️ | ${status}`).catch((_) => _);
+      await alpha.setStatus(`I'm CocoBotz 👾 | Runtime ${uptimer} ⏲️ | ${status}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }}
 		mess = {
@@ -2809,7 +2809,7 @@ case 'bcgif':
 					for (let i of ini_ownerNumber) {
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Alphabot',
+					"displayName": 'Owner CocoBotz',
 					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: Ownership;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
@@ -2817,7 +2817,7 @@ case 'bcgif':
 					"displayName": `${ini_list.length} kontak`,
 					"contacts": ini_list 
 					}, 'contactsArrayMessage', { quoted: fkontak})
-					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
+					var ini_gopayy =`Halo @${sender.split("@")[0]} Itu Owner Ku, Jangan Di Bully Kak Masih Bocil🗿`
 var buttonss = [
 {buttonId: 'donasi', buttonText:{displayText: 'Donasi'}, type: 1},
 {buttonId: 'sewabot', buttonText:{displayText: 'Sewa'}, type: 1}
